@@ -451,21 +451,27 @@ footer p {
     .nav-container {
         justify-content: space-between;
         min-height: 90px;
-        padding: 10px 15px;
+        padding: 5px 15px;
     }
     .brand-logo {
         position: static;
         transform: none;
-        gap: 10px;
+        gap: 8px;
     }
     .brand-logo img {
-        height: 65px;
+        height: 50px;
     }
     .brand-name {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
+        white-space: normal;
+        line-height: 1.1;
     }
     .hamburger {
         display: block;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
     }
 
     .nav-links {
