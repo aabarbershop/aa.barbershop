@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AA Barber Shop - Elegancia y estilo. Reserva tu hora con los mejores profesionales en La Granja.">
+    <title>AA Barber Shop | Barbershop Elegante</title>
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Núcleo de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS de Animaciones AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/56972550965?text=Hola,%20quisiera%20realizar%20una%20reserva.%20Mi%20nombre%20es:"
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Contáctanos aquí</span>
+    </a>
+
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <img src="IMG/LOGO AA BARBER SHOP.png" alt="AA Barber Shop Logo">
+                <span class="brand-name">AA BARBER SHOP</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#info">Información</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Principal (Hero) -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Elegancia & Estilo</h1>
+            <p>Descubre el mejor servicio en AA Barber Shop. Tu imagen está en las mejores manos.</p>
+            <a href="https://wa.me/56972550965?text=Hola,%20quisiera%20realizar%20una%20reserva.%20Mi%20nombre%20es:"
+                class="btn-primary" target="_blank">Reservar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Nuestros Servicios</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Degradados</h3>
+                    <p class="service-desc">Corte + Ceja y Línea sencilla a elección + Mascarilla.</p>
+                    <span class="price">$10.000</span>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-child"></i></div>
+                    <h3>Clásicos y Escolar</h3>
+                    <p class="service-desc">Corte escolar de niño o tradicional de caballero.</p>
+                    <span class="price">$6.000</span>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3>Corte con Barba</h3>
+                    <p class="service-desc">Corte de cabello impecable y cuidado completo de la barba.</p>
+                    <span class="price">$15.000</span>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon"><i class="fa-brands fa-redhat"></i></div>
+                    <h3>Perfilado de Barba</h3>
+                    <p class="service-desc">Dale forma, contorno y estilo a tu barba.</p>
+                    <span class="price">$5.000</span>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Perfilado de Cejas</h3>
+                    <p class="service-desc">Limpieza e iluminación de tu mirada.</p>
+                    <span class="price">$2.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Información y Contacto -->
+    <section class="info-contact" id="info">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Encuéntranos</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="info-wrapper">
+                <div class="info-details" data-aos="fade-right">
+                    <div class="info-box">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horarios de Atención</h4>
+                            <p><strong>Lunes a Sábado:</strong> 11:00 am - 10:00 pm</p>
+                            <p><strong>Domingos:</strong> 12:30 pm - 6:00 pm</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Av. San José de la Estrella 1055<br>La Granja<br>Región Metropolitana</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Contacto</h4>
+                            <p>+56 9 7255 0965</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/aabarbershop__" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i> @aabarbershop__</a>
+                    </div>
+                </div>
+
+                <div class="info-map" data-aos="fade-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.0463994328325!2d-70.61334962450531!3d-33.52620700142385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d04a7ba5a519%3A0xe72b21021bcbbbd2!2sAv%20San%20Jos%C3%A9%20de%20la%20Estrella%201055%2C%20La%20Granja%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1712952545532!5m2!1sen!2scl"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container footer-content">
+            <img src="IMG/LOGO AA BARBER SHOP.png" alt="AA Barber Shop Logo" class="footer-logo">
+            <p>&copy; 2026 AA Barber Shop. Todos los derechos reservados.</p>
+            <p>Diseñado con pasión para los mejores clientes.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
