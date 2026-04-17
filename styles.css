@@ -450,6 +450,8 @@ footer p {
 @media (max-width: 768px) {
     .nav-container {
         justify-content: space-between;
+        min-height: 90px;
+        padding: 10px 15px;
     }
     .brand-logo {
         position: static;
@@ -457,10 +459,10 @@ footer p {
         gap: 10px;
     }
     .brand-logo img {
-        height: 40px;
+        height: 65px;
     }
     .brand-name {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .hamburger {
         display: block;
@@ -490,6 +492,10 @@ footer p {
         border-top: 1px solid rgba(255,255,255,0.02);
     }
 
+    .hero {
+        padding-top: 100px;
+    }
+
     .hero-content h1 {
         font-size: 2.8rem;
     }
@@ -509,5 +515,8 @@ footer p {
     }
     .whatsapp-text {
         font-size: 1rem;
+    }
+    .whatsapp-float:hover {
+        transform: scale(1.1);
     }
 }
